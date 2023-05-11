@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Header  from '@components/header/Header';
+import Landing from '@pages/Landing.jsx'
 
 function App() {
   return (
@@ -7,10 +9,10 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/"  element={<Landing />}/>
         </Routes>
       </main>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }
