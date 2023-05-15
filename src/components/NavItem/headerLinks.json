@@ -1,11 +1,19 @@
 [
 
     {
-      "path": "/warehouse",
-      "name": "warehouse"
+      "path": "/",
+      "name": "home"
     },
     {
-      "path": "/inventory",
-      "name": "inventory"
+      "path": "/",
+      "name": "about"
+    },
+    {
+      "path": "/",
+      "name": "home"
+    },
+    {
+      "path": "/",
+      "name": "home"
     }
-  ]
+]
