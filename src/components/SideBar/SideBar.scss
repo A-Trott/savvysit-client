@@ -1,0 +1,18 @@
+@use '@styles/partials' as *;
+
+.sideBar{
+  display:flex;
+  flex-direction: column;
+  background-color: $primary;
+
+
+  & >a{
+  color: white;
+  padding:1rem;
+  border: 1px solid $text;
+  text-align:center;
+  }
+  &__link--active{
+    color: $secondary;
+  }
+}

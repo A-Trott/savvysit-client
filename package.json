@@ -24,13 +24,28 @@
     }
   },
   "dependencies": {
-
+    "@emotion/react": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fortawesome/react-native-fontawesome": "^0.3.0",
+    "@mantine/core": "^6.0.10",
+    "@mantine/dates": "^6.0.10",
+    "@mantine/form": "^6.0.10",
+    "@mantine/hooks": "^6.0.10",
+    "@mantine/modals": "^6.0.10",
+    "@mantine/nprogress": "^6.0.10",
+    "@mantine/prism": "^6.0.10",
+    "@mantine/spotlight": "^6.0.10",
     "axios": "^1.4.0",
-
+    "dayjs": "^1.11.7",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-native-svg": "^13.9.0",
+    "react-router-dom": "^6.10.0",
+    "sass": "^1.62.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",

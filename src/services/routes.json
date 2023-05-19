@@ -1,0 +1,5 @@
+{
+  "profile": "/api/profile",
+  "inventory": "/api/inventory",
+  "pets": "/api/pets"
+}

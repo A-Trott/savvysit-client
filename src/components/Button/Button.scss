@@ -1,0 +1,52 @@
+@use "@styles/partials" as *;
+
+
+.button {
+
+  font-weight: normal;
+  color: $bg;
+  background-color: $accent;
+  border-radius: 5px;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  border:none;
+
+  @include mobile {
+    width: 100%;
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+  @include tablet {
+    width: 9.75rem;
+    padding: 0 0.5rem;
+  }
+  @include desktop {
+    width: 9rem;
+    padding: 0 0.5rem;
+  }
+  &__text {
+    justify-self: center;
+    flex-grow: 1;
+    text-align: center;
+    color: inherit;
+    font-size: 0.65rem;
+  }
+  &__a {
+    @include mobile {
+      width:100%;
+    }
+  }
+  &--cancel {
+    background-color: $bg;
+    color:$accent;
+  }
+  &--publish {
+    @include tablet {
+      order:1;
+    }
+    @include desktop {
+      order:1;
+    }
+  }
+}

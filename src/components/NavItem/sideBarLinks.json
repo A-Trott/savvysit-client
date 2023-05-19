@@ -1,0 +1,27 @@
+[
+
+  {
+    "path": "/dashboard/overview",
+    "name": "Overview"
+  },
+  {
+    "path": "/dashboard/calendar",
+    "name": "Calendar"
+  },
+  {
+    "path": "/dashboard/rolodex",
+    "name": "Rolodex"
+  },
+  {
+    "path": "/dashboard/careplans",
+    "name": "Care Plans"
+  },
+  {
+    "path": "/dashboard/profile",
+    "name": "Profile"
+  },
+  {
+    "path": "/dashboard/settings",
+    "name": "Settings"
+  }
+]
