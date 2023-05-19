@@ -1,19 +1,18 @@
 [
-
-    {
-      "path": "/",
-      "name": "home"
-    },
-    {
-      "path": "/",
-      "name": "about"
-    },
-    {
-      "path": "/",
-      "name": "home"
-    },
-    {
-      "path": "/",
-      "name": "home"
-    }
+  {
+    "path": "/",
+    "name": "Home"
+  },
+  {
+    "path": "/dashboard",
+    "name": "Dashboard"
+  },
+  {
+    "path": "/about",
+    "name": "About"
+  },
+  {
+    "path": "/contact",
+    "name": "Contact"
+  }
 ]

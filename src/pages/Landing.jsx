@@ -1,10 +1,11 @@
 import React from 'react';
+import '@pages/Landing.scss'
 
 export default function Landing() {
   return (
-      <div>
-        <h1>Sit Savvy</h1>
-        <section>
+      <div className='landing'>
+        <section className='landing__section'>
+          <h2>Sit Savvy</h2>
           <p>
             Are you a homeowner who needs to leave town but wants to make sure your pets and home are taken care of
             while you're away? Are you a sitter who wants an easy way to keep track of all the information you need to
@@ -17,7 +18,7 @@ export default function Landing() {
             track of their current and upcoming sits, as well as their past experiences.
           </p>
         </section>
-        <section>
+        <section className='landing__section'>
           <h2>
             Features
           </h2>
@@ -37,13 +38,13 @@ export default function Landing() {
           </ul>
 
         </section>
-        <section>
+        <section className='landing__section'>
           <h2>Get Started</h2>
           <p> Getting started with Sit Savvy is easy! Simply create an account as a homeowner or sitter, and start
             creating and managing your care plans and sits today.
           </p>
         </section>
-        <section>
+        <section className='landing__section'>
           <h2>About Us</h2>
           <p> Sit Savvy was founded by a team of experienced pet and house sitters who wanted to make it easier for
             homeowners and sitters to connect and collaborate. We're passionate about building a strong community of
@@ -51,7 +52,7 @@ export default function Landing() {
             and stress-free as possible.
           </p>
         </section>
-        <section>
+        <section className='landing__section'>
           <h2>Contact Us</h2>
           <p> Have questions or feedback? We'd love to hear from you! You can reach us at
             [support@sitsavvy.com](mailto:support@sitsavvy.com), or follow us on social media for updates and news.

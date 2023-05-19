@@ -1,0 +1,17 @@
+@use '@styles/partials' as *;
+.about-me{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  background-color: $bg;
+  padding:1rem 4rem;
+
+  &__div {
+    width:40%;
+  }
+  &__image{
+    max-width:100%;
+    justify-self:flex-end;
+  }
+}
+

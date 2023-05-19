@@ -1,16 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './NavItem.scss';
 
 
-export default function NavItem({ to, name, active, setActiveLink }) {
+export default function NavItem({ to, name, active, setActiveLink, className }) {
   return (
     <NavLink
-      className={`
-        ${active === name ? 'bg-instock-black' : ''} 
-        block capitalize text-sm md:text-base rounded-full py-2 px-8 
-        text-center align-middle text-instock-cloud
-        hover:text-instock-white hover:underline
-      `}
+      className={`${active === name ? className : 'nav-link'}`}
       to={to}
       onClick={() => setActiveLink(name)}
     >

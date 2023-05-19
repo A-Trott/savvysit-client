@@ -1,15 +1,15 @@
 import React from 'react'
 import Logo from '@components/Logo/Logo.jsx'
-
+import '@components/Footer/Footer.scss'
 export default function Footer() {
   return (
-      <div>
+      <div className='footer'>
         <Logo onClick={() => setActiveLink('warehouse')}/>
         <div>
           <span className="">linkedin</span>
           <span>github</span>
           <span>email</span></div>
-        <span className='mt-auto w-full py-8 text-center bg-instock-light-grey text-instock-slate'>
+        <span className=''>
           &copy; SavvySit Inc. All Rights Reserved.
         </span>
       </div>

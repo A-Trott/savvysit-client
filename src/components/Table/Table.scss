@@ -1,0 +1,57 @@
+@use '@styles/partials.scss' as *;
+
+.table{
+  width:100%;
+  display:table;
+  margin-bottom:1rem;
+
+  &__caption{
+    font-size:3rem;
+    color:$text;
+    font-weight:bold;
+    border-bottom:1px solid $text;
+    margin-bottom:1rem;
+  }
+  &__header-row{
+    display:none;
+  }
+  &__body{
+    clear: both;
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: var(--cards-columns);
+    grid-column-gap: 0.75rem;
+    grid-row-gap: 0.75rem;
+    &__row{
+      background-color: $secondary;
+      border: var(--cards-border-width) solid var(--background-modifier-border);
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      margin: 0;
+      padding: 0 0 calc(var(--cards-padding)/3) 0;
+      border-radius: 6px;
+      overflow: hidden;
+      gap:.5rem;
+      transition: box-shadow .15s linear;
+    }
+    &__cell {
+      border-bottom: none;
+      padding: 0!important;
+      line-height: 1.2;
+      width: calc(100% - var(--cards-padding));
+      margin: 0 auto;
+      overflow: visible!important;
+      max-width: 100%;
+      display: flex;
+      text-transform:capitalize;
+      justify-content:space-between;
+
+      &--title{
+        justify-content: center;
+        height:1.75rem;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+@use "@styles/partials" as *;
+
+.landing{
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  padding: 2rem;
+
+
+  &__section{
+    background-color: $bg;
+    padding:0 2rem;
+  }
+}

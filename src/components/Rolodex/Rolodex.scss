@@ -1,0 +1,13 @@
+@use '@styles/partials' as *;
+
+.rolodex-list{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:100%;
+  padding:1rem;
+
+  &__div{
+
+}
+}
