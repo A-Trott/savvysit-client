@@ -1,11 +1,10 @@
-# Brainstation Capstone Project
-## SavvySit 
+# savvysit client
+## Project requirement
+please create a local .env file with a VITE_BASE_URL variable.
+VITE_BASE_URL=8080
 
-
-# Project Techstack
-- React
-- Vite
-- Express
-- SQL
-
-# Roadmap
+## Project implementation procedure
+download zip file and unzip project folder
+add .env with vite base url variable to project folder
+yarn/npm install package modules
+run yarn dev to start
